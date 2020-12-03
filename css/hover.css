@@ -1,0 +1,62 @@
+.general:hover{
+    background-color: #fff;
+    color: black;
+    transition-duration: .5s;
+    border-style: solid;
+    border-color: black;
+}
+
+.general:hover .icon{
+    display: none;
+    transition-duration: .5s;
+}
+
+.general:hover .head{
+    margin-left: 300px;
+    transition-duration: .5s;
+    transition-property: margin-left;
+}
+
+.general:hover .description{
+    margin-left: 300px;
+    transition-duration: .5s;
+    transition-property: margin-left;
+}
+
+.secondary:hover{
+    background-color: #fff;
+    color: black;
+    transition-duration: .3s;
+    border-style: solid;
+    border-color: black;
+}
+
+.secondary:hover .icon{
+    display: none;
+    transition-duration: .5s;
+}
+
+.secondary:hover .head{
+    margin-left: 6%;
+    transition-duration: .5s;
+}
+
+.secondary:hover .description{
+    margin-left: 6%;
+    transition-duration: .5s;
+}
+
+.homepage_button:hover{
+    border-color: black;
+    background-color: #fff;
+    color: black;
+    transition-duration: .5s;
+}
+
+.homepage_button:hover .homepage_icon{
+    display: none;
+}
+
+.homepage_button:hover .homepage_text{
+    margin-left: 23px;
+}

@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&text=%21%22%23%24%25%26%27%28%29%30+,-./0123456789:;%3C=%3E%3F@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`%E2%82%AC„‘’“”™©®°µ±÷abcdefghijklmnopqrstuvwxyz{|}~%C3%9C%C3%96%C4%9E%C4%B0%C6%8F%C3%87%C5%9E%C3%BC%C3%B6%C4%9F%C4%B1%C9%99%C3%A7%C5%9F:wght@400;700&display=swap');
+
+/* ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@font-face {
+    font-family: normal;
+    src: url(../fonts/BebasNeueBook.otf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/BebasNeueBold.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'normal';
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+#logo_img{
+    height: 2cm;
+}
+
+#logo_div{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 42%;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.horizontal_line{
+    display: inline-block;
+    height: 80px;
+    width: 5px;
+    background-color: #fff;
+}
+
+.logo_text{
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 8px;
+    font-family: 'PT Sans';
+}
+
+#container{
+    margin-top: 30px;
+    height: auto;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.general{
+    height: 130px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.icon{
+    margin: 31px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.head{
+    display: inline-block;
+    font-size: 40px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.description{
+    display: inline-block;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+.secondary{
+    display: inline-block;
+    height: 130px;
+    width: 42.1%;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #fff;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#head2{
+    font-size: 28px;
+}
+
+.social_head{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.social_links{
+    margin-top: 40px;
+}
+
+.social_icon{
+    display: inline-block;
+}
+
+.social_name{
+    display: inline-block;
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.link{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.homepage_button{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    line-height: 30px;
+    height: 30px;
+    width: 143px;
+    display: inline-block;
+}
+
+.homepage_text{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.text_head{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.homepage_icon{
+    display: inline-block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.text_intro{
+    margin-top: 24px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.rule{
+    margin-top: 150px;
+}
+
+.text{
+    font-size: 19px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.text_subhead{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.rules_list{
+    font-family: 'Roboto';
+}
+
+b{
+    font-family: 'Roboto';
+}
+
+.questiona{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.question{
+    color: #fff;
+    text-align: center;
+}
+
+.mundericat{
+    margin-top: 50px;
+}
+
+.questions{
+    font-family: 'Roboto';
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+#faq_question{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.faq_question{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.answer{
+    margin-top: 100px;
+    font-family: 'Roboto';
+}
+
+.horizontal_line{
+    display: none;
+}
+
+.logo_text{
+    display: none;
+}

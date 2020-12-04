@@ -254,3 +254,12 @@ b{
 .logo_text{
     display: none;
 }
+
+.paragraph{
+    font-family: 'Roboto';
+    color: white;
+}
+
+a{
+    color: white;
+}
